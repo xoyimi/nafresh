@@ -1,0 +1,368 @@
+.main {
+  margin: 10px 0 0 219px;
+  width: 980px;
+  height: 455px;
+}
+
+.focus {
+  position: relative;
+  overflow: hidden;
+  width: 720px;
+  height: 100%;
+}
+.focus ul{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:600%;
+}
+.focus ul li {
+  float: left;
+  width: 720px;
+}
+
+.focus img {
+  height: 455px;
+  width: 100%;
+
+}
+
+.arrow-l,
+.arrow-r {
+  z-index: 1;
+  display: none;
+  position: absolute;
+  width: 24px;
+  height: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: 'icomoon';
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, .3);
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+border-radius: 0 20px 20px 0;
+}
+.focus:hover .arrow-l,.focus:hover .arrow-r
+{
+  display: block;
+}
+.arrow-r {
+  right: 0;
+  border-radius: 20px 0 0 20px;
+}
+
+.newflash {
+  width: 250px;
+  height: 100%;
+}
+
+.circle {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.circle li {
+  float: left;
+  margin: 0 3.5px;
+  width: 7px;
+  height: 7px;
+  border: 2px solid rgba(255, 255, 255, .5);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.current {
+  background-color: #c81623;
+}
+
+.new {
+  height: 163px;
+  border: 1px solid #ccc;
+}
+
+.new_hd {
+  height: 32px;
+  border-bottom: 1px dotted #ccc;
+  padding: 0 15px;
+  font-size: 14px;
+  line-height: 32px;
+}
+
+.new_hd a {
+  float: right;
+  font-size: 12px;
+  font-family: 'icomoon'
+}
+
+.new_bd {
+  padding: 10px 0 0 15px;
+
+}
+
+.new_bd li {
+  height: 23px;
+}
+
+.lifeservice {
+  height: 208px;
+  border: 1px solid #ccc;
+  border-top: none;
+  margin-bottom: 5px;
+}
+
+.lifeservice ul {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.lifeservice ul li {
+  position: relative;
+  /* 要用css3盒子模型... */
+  box-sizing: border-box;
+  flex: 25%;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.lifeservice ul li a {
+  /*bfc 解决外边距合并  */
+  overflow: hidden;
+  display: block;
+  height: 100%;
+}
+
+[class^=lifeservice_icon] {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url(../img/icons.png) no-repeat -16px -16px;
+  margin: 10px auto 6px;
+}
+
+.lifeservice_icon2 {
+  background-position: -79px -16px;
+}
+
+.lifeservice_icon3 {
+  background-position: -141px -16px;
+}
+
+.lifeservice_icon4 {
+
+  background-position: -206px -16px;
+}
+
+.lifeservice_icon5 {
+  background-position: -16px -88px;
+}
+
+.lifeservice_icon6 {
+  background-position: -79px -88px;
+}
+
+.lifeservice_icon7 {
+  background-position: -141px -88px;
+}
+
+.lifeservice_icon8 {
+  background-position: -206px -88px;
+}
+
+.lifeservice_icon9 {
+  background-position: -16px -160px;
+}
+
+.lifeservice_icon10 {
+  background-position: -79px -160px;
+}
+
+.lifeservice_icon11 {
+  background-position: -141px -160px;
+}
+
+.lifeservice_icon12 {
+  background-position: -206px -160px;
+}
+
+.lifeservice ul li a p {
+  text-align: center;
+}
+
+.lifeservice ul li:nth-child(4n) {
+  border-right: none;
+}
+
+.lifeservice ul li:nth-child(n+9) {
+  border-bottom: none;
+}
+
+.jian {
+  position: absolute;
+  background: url(../img/jian.png) no-repeat 0 0;
+  width: 12px;
+  height: 15px;
+  top: 0;
+  right: 0;
+}
+
+/* 推荐模块 */
+.recommend {
+  height: 163px;
+  margin-top: 10px;
+  background-color: #ccc;
+}
+
+.recom-hd {
+  box-sizing: border-box;
+  width: 200px;
+  height: 100%;
+  padding-top: 30px;
+  background-color: #5c5251;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.recom-bd {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #ebebeb;
+}
+
+.recom-bd li {
+  overflow: hidden;
+  flex: 1;
+  height: 90%;
+  border-right: 1px solid #ccc;
+}
+
+.recom-bd li:last-child {
+  border-right: none;
+}
+
+.box-hd {
+  margin-top: 25px;
+  height: 30px;
+  border-bottom: 2px solid #c81623;
+}
+
+.box-hd h3 {
+  font-size: 18px;
+  color: #c81623;
+}
+
+.tab-list {
+  line-height: 30px;
+}
+
+.tab-list li {
+  float: left;
+}
+
+.tab-list li a {
+  margin: 0 15px;
+}
+
+.box-bd {
+  height: 361px;
+  overflow: hidden;
+}
+.box-bd img {
+transition: all .2s; 
+position: relative;
+left: 0;
+}
+
+.box-bd img:hover {
+
+  left: 3px;
+}
+
+.tab-content {
+  display: flex;
+  height: 361px;
+}
+
+.tab-content li {
+  flex: 1;
+  overflow: hidden;
+}
+
+.tab-con-first {
+  position: relative;
+  flex: 0 209px;
+}
+
+.tab-con-first-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.tab-con-first-top li {
+  flex: 0 42%;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+
+}
+
+.tab-con-first-top li a {
+  display: block;
+  height: 100%;
+  line-height: 32px;
+}
+
+.tab-con-first-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.tab-content>li:nth-child(2) {
+  flex: 0 329px;
+}
+
+.tab-content>li:nth-child(3),
+.tab-content>li:nth-child(4) {
+  border-right: 1px solid #ccc;
+}
+
+.tab-con-item {
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+}
+
+/* 电梯导航 */
+.fiexdtool {
+  z-index: 99;
+  position: fixed;
+  width: 66px;
+  top: 200px;
+  left: 50%;
+  margin-left: -676px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.fiexdtool li {
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.fiexdtool .current {
+  background-color: #c81623;
+  color: #fff;
+
+}
+.go-back{
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}

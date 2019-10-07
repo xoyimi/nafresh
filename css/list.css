@@ -1,0 +1,165 @@
+.sk {
+  position: absolute;
+  top: 40px;
+  left: 185px;
+  height: 32px;
+  border-left: 1px solid #b1191a;
+  padding: 5px 0 0 15px;
+}
+
+.sk_list li {
+  float: left;
+  line-height: 45px;
+  margin: 0 30px;
+}
+
+.sk_list li a {
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+}
+
+.sk_list li a:hover {
+  color: #C81523;
+}
+
+.sk_con li {
+  float: left;
+  line-height: 45px;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 20px;
+  font-family: 'icomoon';
+}
+
+.sk_bd {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 25px;
+  justify-content: space-between;
+}
+
+.sk_bd li {
+  position: relative;
+  box-sizing: border-box;
+  flex: 0 24%;
+  height: 458px;
+  margin-bottom: 15px;
+  border: 1px solid transparent;
+}
+
+.sk_bd li:hover {
+  border: 1px solid #e12228;
+}
+
+.sk_goods img {
+  display: block;
+  margin: 0 auto;
+}
+
+.sk_goods_title {
+  font-size: 14px;
+  color: #666;
+  font-weight: normal;
+  padding: 10px;
+}
+
+.sk_goods_price {
+  padding: 0 15px;
+}
+
+.sk_goods_price em {
+  font-size: 22px;
+  color: #e60012;
+}
+
+.sk_goods_price del {
+  font-size: 14px;
+  font-weight: 700px;
+  color: #a4a4a4;
+}
+
+.sk_goods_progress {
+  padding: 0 10px;
+}
+
+.sk_goods_progress em {
+  color: #f24349;
+}
+
+.bar {
+  display: inline-block;
+  width: 130px;
+  height: 10px;
+  border: 1px solid #b1191a;
+  border-radius: 5px;
+  margin: 0 5px;
+  overflow: hidden;
+}
+
+.bar_in {
+  height: 100%;
+  width: 87%;
+  background-color: #f24349;
+}
+
+.sk_goods_buy {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #b1191a;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* 页码区 */
+.page {
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.page .pg-l a {
+
+  display: inline-block;
+  line-height: 36px;
+  width: 36px;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+}
+
+.page .pg-l a:first-child,
+.page .pg-l a:last-child {
+  width: 75px;
+}
+
+.page .pg-l .current {
+  border: 1px solid transparent;
+  background-color: transparent;
+
+}
+
+.pg-r input {
+  width: 46px;
+  height: 36px;
+  text-align: center;
+  border: 1px solid #ccc;
+  transition: width .2s;
+}
+
+.pg-r input:focus {
+  width: 66px;
+  border: 1px solid rgb(117, 117, 255);
+
+}
+
+.pg-r button {
+  width: 56px;
+  height: 36px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+}

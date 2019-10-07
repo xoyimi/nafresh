@@ -1,0 +1,135 @@
+.w {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+header {
+  height: 82px;
+  border-bottom: 2px solid #b1191a;
+}
+
+.logo {
+  padding-top: 15px;
+}
+
+.registerarea {
+  margin-top: 20px;
+  height: 520px;
+  border: 1px solid #ccc;
+}
+
+.registerarea h3 {
+  height: 40px;
+  background-color: #ececec;
+  font-weight: 400;
+  padding: 0 10px;
+  font-size: 18px;
+  border-bottom: 1px solid #ccc;
+  line-height: 40px;
+}
+
+.registerarea h3 em {
+  float: right;
+  font-size: 14px;
+}
+
+.registerarea em a {
+  color: #b1191a;
+}
+
+.reg-form {
+  width: 600px;
+  height: 420px;
+  margin: 40px auto 0;
+}
+
+.reg-form li {
+  margin-bottom: 15px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  height: 36px;
+  line-height: 36px;
+  text-align: right;
+}
+
+.inp {
+  height: 34px;
+  width: 238px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+}
+
+.error {
+  color: #df3033;
+  margin-left: 10px;
+}
+
+.error-ico,
+.success-ico {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -2px;
+  width: 20px;
+  height: 20px;
+  background: url(../img/error.png) no-repeat;
+}
+
+.success-ico {
+  background: url(../img/success.png);
+}
+
+.success {
+  color: #40b83f;
+  margin-left: 10px;
+}
+.safe{
+  padding-left: 187px;
+}
+.safe em {
+  padding: 0 12px;
+  color: #fff;
+}
+
+.ruo {
+  background-color: #de1111;
+}
+
+.zhong {
+  background-color: #40b83f;
+}
+
+.qiang {
+  background-color: #f79100;
+}
+.agree {
+  padding-top: 20px;
+  padding-left: 100px;
+}
+.agree input{
+  vertical-align: middle;
+  margin-right:5px;
+}
+.agree a {
+  color: #1ba1e6;
+}
+.over{
+width: 200px;
+height: 34px;
+background-color: #c81623;
+margin: 30px 0 0 130px;
+border: 1px solid #ccc;
+color: #fff;
+font-size: 14px;
+cursor: pointer;
+}
+
+/* footer */
+.copyright {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.mod_copyright_link{ padding:15px;
+}

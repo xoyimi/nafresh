@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CH">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- 初始化 css -->
+  <link rel="stylesheet" href="css/base.css">
+  <!-- register css -->
+  <link rel="stylesheet" href="css/register.css">
+  <title>注册页面</title>
+</head>
+
+<body>
+  <div class="w">
+    <header>
+      <div class="logo"><a href="index.html"><img src="img/logo.png" alt=""></a>
+      </div>
+    </header>
+    <div class="registerarea">
+      <h3>
+        注册新用户
+        <em>我有账号 , 去<a href="login.html">登入</a></em>
+      </h3>
+      <div class="reg-form">
+        <form action="">
+          <ul>
+            <li>
+              <label for="phoneNum">手机号:</label>
+              <input class="inp" type="text" id="phoneNum">
+              <span class="error">
+                <i class="error-ico"></i>
+                手机输入格式不正确,请重新输入</span>
+            </li>
+            <li>
+              <label for="note">短信验证码:</label>
+              <input class="inp" type="text" id="note">
+            </li>
+            <li>
+              <label for="loginPwd">登入密码:</label>
+              <input class="inp" type="password" id="loginPwd">
+              <span class="success">
+                <i class="success-ico"></i> 恭喜您输入正确
+              </span>
+            </li>
+            <li class="safe">
+              安全程度
+              <em class="ruo">弱</em>
+              <em class="zhong">中</em>
+              <em class="qiang">强</em>
+            </li>
+            <li>
+              <label for="confirm">确认密码:</label>
+              <input class="inp" type="password" id="confirm">
+              <span class="success">
+                <i class="success-ico"></i> 恭喜您输入正确
+              </span>
+            </li>
+            <li class="agree">
+              <input type="checkbox">同意协议并注册<a href="#">《能都鲜用户协议》</a>
+            </li>
+            <li>
+              <input class="over" type="submit" value="完成注册">
+            </li>
+          </ul>
+
+        </form>
+      </div>
+    </div>
+    <footer>
+      <div class="copyright">
+        <p class="mod_copyright_link"><a href="#">关于我们</a> | <a href="#">关于我们</a> | <a href="#">联系我们</a> | <a
+            href="#">联系客服</a> | <a href="#">商家入驻</a> | <a href="#">营销中心</a> | <a href="#">手机宁都鲜</a> | <a
+            href="#">友情链接</a> | <a href="#">销售联盟</a> | <a href="#">宁都鲜社区</a> | <a href="#">宁都鲜公益</a> | <a
+            href="#">English Site</a> | <a href="#">Contact</a></p>
+        <p>地址:江西省宁都县 邮编:342800 电话:400-000-0000 邮箱:minghost@qq.com<br>京ICP备00000000号赣公网安警00000000</p>
+      </div>
+
+    </footer>
+  </div>
+</body>
+
+</html>
