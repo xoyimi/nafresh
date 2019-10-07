@@ -362,7 +362,11 @@ left: 0;
 
 }
 .go-back{
+
   position: fixed;
   right: 50px;
   bottom: 50px;
+}
+.go-back img  {
+  height: 40px;
 }

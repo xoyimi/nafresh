@@ -120,4 +120,9 @@ window.addEventListener('load', function () {
     //手动调用点击事件
     arrow_r.click();
   }, 2000)
+  //
+  let goBack=document.querySelector('.go-back');
+  goBack.addEventListener('click',function () {
+    scrollTo(0,0);
+  })
 })
