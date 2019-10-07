@@ -66,3 +66,4 @@ body {
 .clearfix {
   *zoom: 1
 }
+html, body { scroll-behavior:smooth; }

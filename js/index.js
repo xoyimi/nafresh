@@ -12,9 +12,6 @@ window.addEventListener('load', function () {
   focus.addEventListener('mouseenter', function () {
     clearInterval(auto);
     auto = null; //清空对象 释放内存
-    console.log(auto);
-
-
   })
   focus.addEventListener('mouseleave', function () {
     auto = setInterval(function () {
@@ -92,8 +89,7 @@ window.addEventListener('load', function () {
         ul.style.left = -num * focusWidth + 'px';
       }
       num--;
-      animate(ul, -num * focusWidth, function (
-      ) {
+      animate(ul, -num * focusWidth, function () {
         flag = true;
       });
       //小圆圈跟着一起变化
@@ -121,8 +117,15 @@ window.addEventListener('load', function () {
     arrow_r.click();
   }, 2000)
   //
-  let goBack=document.querySelector('.go-back');
-  goBack.addEventListener('click',function () {
-    scrollTo(0,0);
+  let goBack = document.querySelector('.go-back');
+  goBack.style.display = 'none';
+  window.addEventListener('scroll', function () {
+    if (this.pageYOffset > 200) {
+      goBack.style.display = 'block';
+    } else goBack.style.display = 'none';
+
+  })
+  goBack.addEventListener('click', function () {
+    scrollTo(0, 0);
   })
 })
